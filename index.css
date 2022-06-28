@@ -1,0 +1,236 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 8px solid;padding: 30px;
+    height: auto;
+    border-radius: 10px ;
+
+}
+
+.boxA{
+flex-basis: 100%;
+border: 5px solid;
+border-radius: 10px ;margin-bottom: 10px;
+/* height: 10%; */
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+background-color: rgb(14, 122, 238);
+}
+
+
+.boxB{
+    flex-basis: 74%;
+    border: 5px solid;
+    border-radius: 10px ;
+margin-bottom: 10px;
+margin-right: 1px;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+background-color: rgb(240, 180, 14);
+}
+
+/* .last-div{
+display: flex;
+} */
+.boxE{
+    flex-basis: 24%;
+    border: 5px solid;
+    border-radius: 10px ;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+align-items: center;
+justify-content: center;
+background-color: rgb(237, 16, 8);
+
+}
+
+
+
+.boxC{
+    flex-basis: 24%;
+    border: 5px solid;
+    border-radius: 10px ;
+    margin-right: 1px;
+    display: flex;
+    text-align: center;
+align-items: center;
+justify-content: center;
+background-color: gray;
+}
+
+.boxD{
+    flex-basis: 74%;
+    border:5px solid;
+    border-radius: 10px ;
+    display: flex;
+    text-align: center;
+align-items: center;
+justify-content: center;
+background-color: gray;
+}
+@media screen and (max-width: 1024px) {
+    .boxB{
+
+flex-basis: 73.33% !important;
+    }
+    .boxE{
+
+        flex-basis: 24% !important;
+            }
+            .boxC{
+
+                flex-basis: 25% !important ;
+          
+            }
+            
+        .boxD{
+
+        flex-basis: 72%  !important ;
+                 
+      }
+            }
+
+@media screen and (max-width: 768px) {
+    .boxB{
+
+flex-basis: 73%  !important;
+    }
+    .boxE{
+
+        flex-basis: 23.33% !important;
+            }
+            .boxC{
+
+                flex-basis: 23.33% !important ;
+          
+            }
+            
+        .boxD{
+
+        flex-basis: 73%   !important;
+                 
+      }
+            }
+   
+@media screen and (max-width: 650px) {
+
+            .boxC{
+
+                flex-basis: 47%;
+          
+            }
+            
+        .boxD{
+
+        flex-basis: 47%;
+                  
+      }
+            }
+
+
+
+            
+            
+            
+            
+            @media screen and (max-width: 682px) {
+                
+                .boxC{
+                    
+                    flex-basis: 48%;
+                    
+                }
+                
+                .boxD{
+                    
+                    flex-basis: 48%;
+                    
+                }
+            }
+            
+            
+            
+            
+            
+            
+            @media screen and (max-width: 500px) {
+                
+                .boxC{
+                    
+                    flex-basis: 47%;
+                    
+                }
+                
+                .boxD{
+                    
+                    flex-basis: 47%;
+                    
+                }
+            }
+            
+            @media screen and (max-width: 425px) {
+
+                .boxB{
+    
+                    flex-basis: 100% !important;
+              
+                }
+                
+
+                .boxE{
+    
+                    flex-basis: 100% !important;
+              
+                }
+
+                .boxC{
+                    
+                    flex-basis: 46%  !important;
+                    
+                }
+                
+                
+
+            .boxD{
+    
+            flex-basis: 47% !important;
+                      
+          }
+                }
+    
+                
+                
+                @media screen and (max-width: 375px) {
+                    
+                    .boxC{
+                        
+                        flex-basis: 46% !important;
+                        
+                    }
+                    
+                    .boxD{
+                        
+                        flex-basis: 46% !important;
+                        
+                    }
+                }
+                
+                @media screen and (max-width: 320px) {
+
+                    .boxC{
+        
+                        flex-basis: 45% !important ;
+                  
+                    }
+                    
+                .boxD{
+        
+                flex-basis: 45% !important;
+                          
+              }
+                    }
